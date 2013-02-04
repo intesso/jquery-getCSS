@@ -18,7 +18,7 @@ if jQuery is loaded it adds the getCSS function to the jQuery object:
 Otherwise it adds it to the window object:
 ```js
 	window.getCSS("getCSS.css");
-``
+```
 
 ## Testing
 

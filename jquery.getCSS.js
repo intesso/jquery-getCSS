@@ -1,7 +1,7 @@
 /*
  * jQuery getCSS Plugin
- * Copyright 2012, Andi
- * Dual licensed under the MIT or GPL Version 2 licenses.
+ * Copyright 2013, intesso
+ * MIT license.
  *
  * This tiny plugin loads a external css file dynamically.
  * It should address cross browser compatibility, especially the special case IE;-)
@@ -11,9 +11,6 @@
  *
  * Reference IE: http://msdn.microsoft.com/en-us/library/ie/ms531194(v=vs.85).aspx
  *
- * TODO unit testing:
- * http://msdn.microsoft.com/en-us/magazine/ff608209.aspx
- * http://qunitjs.com/cookbook/
  */
 
 
