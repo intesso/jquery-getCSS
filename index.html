@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Jquery-getcss by intesso</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Jquery-getcss</h1>
+        <h2>cross browser function to dynamically load external css files</h2>
+        <a href="https://github.com/intesso/jquery-getCSS" class="button"><small>View project on</small>GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>jquery-getCSS</h1>
+
+<p>cross browser function to dynamically load an external css file</p>
+
+<h2>Usage</h2>
+
+<p>include this script in your header:</p>
+
+<div class="highlight"><pre>    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"jquery.getCSS.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+</pre></div>
+
+<p>if jQuery is loaded it adds the getCSS function to the jQuery object:</p>
+
+<div class="highlight"><pre>    <span class="nx">$</span><span class="p">.</span><span class="nx">getCSS</span><span class="p">(</span><span class="s2">"getCSS.css"</span><span class="p">);</span>
+</pre></div>
+
+<p>Otherwise it adds it to the window object:</p>
+
+<div class="highlight"><pre>    <span class="nb">window</span><span class="p">.</span><span class="nx">getCSS</span><span class="p">(</span><span class="s2">"getCSS.css"</span><span class="p">);</span>
+</pre></div>
+
+<h3>Options</h3>
+
+<p>the function takes an attributes hash or a string</p>
+
+<div class="highlight"><pre>    <span class="c1">// file name as string:</span>
+    <span class="nx">$</span><span class="p">.</span><span class="nx">getCSS</span><span class="p">(</span><span class="s2">"fresh.css"</span><span class="p">)</span>
+
+    <span class="c1">// attributes as hash:</span>
+    <span class="nx">$</span><span class="p">.</span><span class="nx">getCSS</span><span class="p">({</span><span class="nx">href</span><span class="o">:</span><span class="s2">"cool.css"</span><span class="p">,</span> <span class="nx">media</span><span class="o">:</span><span class="s2">"print"</span><span class="p">})</span>
+    <span class="nx">$</span><span class="p">.</span><span class="nx">getCSS</span><span class="p">({</span><span class="nx">href</span><span class="o">:</span><span class="s2">"/styles/forest.css"</span><span class="p">,</span> <span class="nx">media</span><span class="o">:</span><span class="s2">"screen"</span><span class="p">})</span>   
+</pre></div>
+
+<h2>Testing</h2>
+
+<p>Tested with Firefox, Chrome, IE</p>
+
+<h2>License</h2>
+
+<p>(The MIT License)</p>
+
+<p>Copyright (c) 2013 intesso</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+
+<h2>Support or Contact</h2>
+
+<p>Having trouble with this script? Please let me know: <a href="mailto:andi.neck@intesso.com">andi.neck@intesso.com</a>.</p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/intesso/jquery-getCSS/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/intesso/jquery-getCSS/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/intesso/jquery-getCSS"></a> is maintained by <a href="https://github.com/intesso">intesso</a>.</p>
+
+          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
