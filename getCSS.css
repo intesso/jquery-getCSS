@@ -1,0 +1,14 @@
+
+body {
+	margin: 20px;
+}
+
+div {
+	background: green;
+	border: dashed;
+}
+
+a {
+	display: block;
+	padding: 10px;
+}

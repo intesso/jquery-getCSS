@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>jquery.getCSS Test</title>
+        <script src="jquery.getCSS.js"></script>
+    </head>
+    <body>
+        <h1>getCSS Test without jQuery</h1>
+        <div>should be green</div>
+        <a id="applyCSS" href="#">applyCSS</a>
+        <a  href="getCSS2.html">getCSS with jQuery</a>
+
+        <script type="text/javascript">
+            apply = document.getElementById("applyCSS");
+            apply.onclick = function(e) {
+                e.preventDefault();
+                window.getCSS("getCSS.css");
+            }
+        </script>
+    </body>
+</html>
