@@ -39,6 +39,12 @@ Tested with Firefox, Chrome, IE
 
 Open this link: [Test Page](http://htmlpreview.github.com/?https://raw.github.com/intesso/jquery-getCSS/master/getCSS.html) and click applyCSS and the external css file should be loaded and the styles should be applied.
 
+## Credits
+Original Idea by:
+Soviut http://stackoverflow.com/questions/1184950/dynamically-loading-css-stylesheet-doesnt-work-on-ie
+
+## References
+IE special: http://msdn.microsoft.com/en-us/library/ie/ms531194(v=vs.85).aspx
 
 ## License 
 
