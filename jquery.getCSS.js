@@ -15,6 +15,15 @@
 
 
 (function() {
+	/*
+		arguments: attributes
+		attributes can be a string: then it goes directly inside the href attribute.
+		e.g.: $.getCSS("fresh.css")
+
+		attributes can also be an objcet.
+		e.g.: $.getCSS({href:"cool.css", media:"print"})
+		or:	$.getCSS({href:"/styles/forest.css", media:"screen"})
+	*/
 	var getCSS = function(attributes) {
 			// setting default attributes
 			if(typeof attributes === "string") {

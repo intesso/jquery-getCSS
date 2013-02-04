@@ -20,6 +20,18 @@ Otherwise it adds it to the window object:
 	window.getCSS("getCSS.css");
 ```
 
+### Options
+the function takes an attributes hash or a string
+
+```js
+	// file name as string:
+	$.getCSS("fresh.css")
+
+	// attributes as hash:
+	$.getCSS({href:"cool.css", media:"print"})
+	$.getCSS({href:"/styles/forest.css", media:"screen"})	
+```
+
 ## Testing
 
 Tested with Firefox, Chrome, IE
