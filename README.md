@@ -36,7 +36,8 @@ the function takes an attributes hash or a string
 
 Tested with Firefox, Chrome, IE
 
-[Test Page](http://htmlpreview.github.com/?https://raw.github.com/intesso/jquery-getCSS/master/getCSS.html)
+Open this link: [Test Page](http://htmlpreview.github.com/?https://raw.github.com/intesso/jquery-getCSS/master/getCSS.html) and click applyCSS and the external css file should be loaded and the styles should be applied.
+
 
 ## License 
 
