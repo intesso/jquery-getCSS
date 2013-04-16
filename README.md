@@ -44,7 +44,7 @@ Original Idea by:
 Soviut http://stackoverflow.com/questions/1184950/dynamically-loading-css-stylesheet-doesnt-work-on-ie
 
 ## References
-[IE special](http://msdn.microsoft.com/en-us/library/ie/ms531194(v=vs.85).aspx)
+IE special: http://msdn.microsoft.com/en-us/library/ie/ms531194(v=vs.85).aspx
 
 ## License 
 [MIT License](https://github.com/intesso/jquery-getCSS/blob/master/LICENSE)
