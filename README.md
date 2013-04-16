@@ -5,7 +5,7 @@ cross browser function to dynamically load an external css file.
 see: [github page](http://intesso.github.com/jquery-getCSS/)
 
 ## Usage
-include this script in your header:
+Download the file [jquery.getCSS.js](https://raw.github.com/intesso/jquery-getCSS/master/jquery.getCSS.js) and include it in the header of your html:
 
 ```html
 	<script src="jquery.getCSS.js"></script>
